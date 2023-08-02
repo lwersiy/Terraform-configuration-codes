@@ -1,0 +1,15 @@
+# Ignore log files
+*.log
+
+# Ignore compiled code
+*.exe
+*.out
+
+# Ignore directories
+node_modules/
+vendor/
+.terraform
+*.terraform
+*.{} terraform.tfstate
+*.terraform.tfstate.backup
+
