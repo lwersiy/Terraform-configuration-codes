@@ -175,16 +175,6 @@ resource "aws_security_group" "jenkins_sg" {
 }
 
 
-
-# Output the VPC ID and subnet ID
-output "vpc_id" {
-  value = aws_vpc.LouisVPC.id
-}
-
-output "public_subnet_id" {
-  value = var.pub_subnet_id
-}
-
 # Create and ec2 instance in a public subnet
 resource "aws_instance" "Nexus" {
   ami                         = var.ami[0]

@@ -25,3 +25,4 @@ associate_public_ip_address = ["true", "false"]
 key_name = "jjtechtower-nova-keypair"
 instance-name-tags = ["jenkins", "werso-instance", "SonarQube"]
 
+

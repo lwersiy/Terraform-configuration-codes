@@ -155,3 +155,4 @@ variable "instance-name-tags" {
   default     = ["jenkins", "jjtech-instance", "SonarQube", "Nexus"]
   description = "instance name tags"
 }
+
