@@ -12,9 +12,8 @@ terraform {
 
 
 provider "aws" {
-  region     = "us-east-1"
-  access_key = "AKIA6M2BBVHI6IGDAG7Z"
-  secret_key = "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"
+  region  = "us-east-1"
+  profile = "default"
 }
 
 provider "github" {
