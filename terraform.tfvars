@@ -1,4 +1,6 @@
 github_repository = "werso_repo"
+git_repo_name = "werso-new-repor"
+git_visibility-status = ["public", "private"]
 vpc_cidr_block = "10.0.0.0/16"
 vpc_name = "LouisVPC"
 public_subnet_cidr_block = "10.0.1.0/24"
@@ -24,5 +26,6 @@ instancetype = ["t2.medium", "t2.micro", "t2.large"]
 associate_public_ip_address = ["true", "false"]
 key_name = "OHIO-Keypair"
 instance-name-tags = ["jenkins", "werso-instance", "SonarQube"]
+vpc-id = "aws_vpc.LouisVPC.id"
 
 

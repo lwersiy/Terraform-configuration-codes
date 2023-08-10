@@ -1,6 +1,12 @@
-# resource "github_repository" "werso_repo" {
-#   name = var.github_repository
-# }
+resource "github_repository" "werso_repo" {
+  name = var.github_repository
+}
+
+
+resource "github_repository" "new_repo" {
+  name        = var.git_repo_name
+  visibility  = var.git_visibility-status[0] # Options: "public", "private"
+}
 
 
 # Create the VPC

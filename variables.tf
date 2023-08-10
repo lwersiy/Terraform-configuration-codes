@@ -3,6 +3,21 @@ variable "github_repository" {
   description = "github repositories"
 }
 
+
+variable "git_repo_name" {
+  default = "werso-new-repor"
+  description = "My new repository"
+}
+
+variable "git_visibility-status" {
+  default = ["public", "private"]
+  
+}
+variable "vpc-id" {
+  default = "aws_vpc.LouisVPC.id"
+ 
+}
+
 variable "vpc_cidr_block" {
   default     = "10.0.0.0/16"
   description = "the cidr to use"
